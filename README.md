@@ -25,6 +25,11 @@ This library aims to adhere to [Semantic Versioning 2.0.0]. Violations of this s
 Specifically, if a minor or patch version is released that breaks backward compatibility, that version should be
 immediately yanked and / or a new version should be immediately released that restores compatibility.
 
+Credits
+-------
+
+[Sven Lahann] for the idea and the first implementation.
+
 License
 -------
 
@@ -38,6 +43,7 @@ T3v Illuminate is released under the [MIT License (MIT)], see [LICENSE].
 [LICENSE]: https://raw.githubusercontent.com/t3v/t3v_illuminate/master/LICENSE "License"
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
 [Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
+[Sven Lahann]: https://github.com/svenlahann "Sven Lahann at GitHub"
 [T3v Illuminate]: https://t3v.github.io/t3v_illuminate/ "The TYPO3voila Illuminate extension."
 [TYPO3]: https://typo3.org "The Enterprise Open Source CMS"
 [TYPO3voila]: https://github.com/t3v "“UH LÁLÁ, TYPO3!”"
