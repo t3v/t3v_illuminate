@@ -1,14 +1,14 @@
 <?php
-namespace T3v\T3vIlluminate\Domain\Model;
+namespace T3v\T3vIlluminate\Domain\Model\Page;
 
 use \T3v\T3vIlluminate\Domain\Model\AbstractModel;
 
 /**
- * Page Language Overlay Class
+ * Language Overlay Class
  *
- * @package T3v\T3vIlluminate\Domain\Model
+ * @package T3v\T3vIlluminate\Domain\Model\Page
  */
-class PageLanguageOverlay extends AbstractModel {
+class LanguageOverlay extends AbstractModel {
   /**
    * The table associated with the model.
    *
