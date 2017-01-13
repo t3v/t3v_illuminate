@@ -28,7 +28,9 @@ immediately yanked and / or a new version should be immediately released that re
 Credits
 -------
 
-[Sven Lahann] for the idea and the first implementation.
+[Sven Lahann] for the idea and the first prototype.
+
+The [Laravel] team for the [Database] and [Validation] component.
 
 License
 -------
