@@ -10,7 +10,7 @@ use \T3v\T3vCore\Service\AbstractService;
  *
  * @package T3v\T3vIlluminate\Service
  */
-class DatabaseService implements AbstractService {
+class DatabaseService extends AbstractService {
   /**
    * Setup the database / Eloquent ORM.
    */

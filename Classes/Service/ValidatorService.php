@@ -13,7 +13,7 @@ use \T3v\T3vCore\Service\AbstractService;
  *
  * @package T3v\T3vIlluminate\Service
  */
-class ValidatorService implements AbstractService {
+class ValidatorService extends AbstractService {
   /**
    * Get validator factory.
    *
