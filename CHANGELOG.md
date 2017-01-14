@@ -7,6 +7,7 @@ Unreleased
 ----------
 
 * Fixed `PageService`
+* Cleaned up
 
 1.0.1
 -----
