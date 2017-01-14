@@ -6,6 +6,7 @@ use \T3v\T3vCore\Service\LanguageService;
 
 use \T3v\T3vIlluminate\Domain\Model\Page;
 use \T3v\T3vIlluminate\Domain\Model\Page\LanguageOverlay;
+use \T3v\T3vIlluminate\Service\DatabaseService;
 
 /**
  * Page Service Class
@@ -21,10 +22,20 @@ class PageService extends AbstractService {
   protected $languageService;
 
   /**
+   * The database service
+   *
+   * @var \T3v\T3vIlluminate\Service\DatabaseService
+   */
+  protected $databaseService;
+
+  /**
    * The constructor function.
    */
   public function __construct() {
     parent::__construct();
+
+    $this->databaseService = $this->objectManager->get('T3v\T3vIlluminate\Service\DatabaseService');
+    $this->databaseService->setup();
 
     $this->languageService = $this->objectManager->get('T3v\T3vCore\Service\LanguageService');
   }
