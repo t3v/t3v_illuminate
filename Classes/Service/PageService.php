@@ -15,18 +15,18 @@ use \T3v\T3vIlluminate\Service\DatabaseService;
  */
 class PageService extends AbstractService {
   /**
-   * The language service
-   *
-   * @var \T3v\T3vCore\Service\LanguageService
-   */
-  protected $languageService;
-
-  /**
    * The database service
    *
    * @var \T3v\T3vIlluminate\Service\DatabaseService
    */
   protected $databaseService;
+
+  /**
+   * The language service
+   *
+   * @var \T3v\T3vCore\Service\LanguageService
+   */
+  protected $languageService;
 
   /**
    * The constructor function.
