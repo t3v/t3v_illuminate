@@ -20,7 +20,7 @@ class DatabaseService extends AbstractService {
     $capsule = new Capsule();
 
     // Add connection to Capsule.
-    $capsule->addConnection(self::getDefaultConnection());
+    $capsule->addConnection(self::getConnection());
 
     // Make this Capsule instance available globally via static methods.
     $capsule->setAsGlobal();
@@ -30,16 +30,17 @@ class DatabaseService extends AbstractService {
   }
 
   /**
-   * Returns the default connection.
+   * Returns the connection configuration.
    *
+   * @param string $driver The optional driver, defaults to `mysql`
    * @param string $charset The optional charset, defaults to `utf8`
    * @param string $collation The optional collation, defaults to `utf8_general_ci`
    * @param string $prefix The optional prefix, empty by default
    * @return array The default connection.
    */
-  protected static function getDefaultConnection($charset = 'utf8', $collation = 'utf8_general_ci', $prefix = '') {
+  protected static function getConnection($driver = 'mysql', $charset = 'utf8', $collation = 'utf8_general_ci', $prefix = '') {
     $connection = [
-      'driver'    => 'mysql',
+      'driver'    => $driver,
       'host'      => $GLOBALS['TYPO3_CONF_VARS']['DB']['host'],
       'username'  => $GLOBALS['TYPO3_CONF_VARS']['DB']['username'],
       'password'  => $GLOBALS['TYPO3_CONF_VARS']['DB']['password'],
