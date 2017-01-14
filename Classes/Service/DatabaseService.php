@@ -40,7 +40,7 @@ class DatabaseService extends AbstractService {
   protected static function getDefaultConnection($charset = 'utf8', $collation = 'utf8_general_ci', $prefix = '') {
     $connection = [
       'driver'    => 'mysql',
-      'host'      => $GLOBALS['TYPO3_CONF_VARS']['DB']['password'],
+      'host'      => $GLOBALS['TYPO3_CONF_VARS']['DB']['host'],
       'username'  => $GLOBALS['TYPO3_CONF_VARS']['DB']['username'],
       'password'  => $GLOBALS['TYPO3_CONF_VARS']['DB']['password'],
       'database'  => $GLOBALS['TYPO3_CONF_VARS']['DB']['database'],
