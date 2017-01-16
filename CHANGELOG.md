@@ -3,6 +3,10 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+1.2.0
+
+* Added `Page/LanguageOverlayCommandController`
+
 1.1.0
 -----
 
@@ -28,7 +32,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 * Added `PageService`
 * Setup the database / Eloquent ORM when extension is loaded
 * Added `DatabaseService`
-* Added `Page` and `LanguageOverlay` model
+* Added `Page` and `Page/LanguageOverlay` model
 * Added common files
 * First commit
 
