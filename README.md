@@ -10,30 +10,30 @@ Installation
 2. Run `composer install` or `composer update` to install all dependencies with Composer
 3. Include the TypoScript for `t3v_illuminate` in the main TypoScript template
 
-Classes
--------
+Domain
+------
 
-### Domain
-
-#### Model
+### Model
 
 * [Abstract Model]
 * [Page]
 
-##### Page
+#### Page
 
 * [Language Overlay]
 
-### Service
+Service
+-------
 
 * [Database Service]
 * [Page Service]
 
-#### Validation
+### Validation
 
 * [Validator Service]
 
-### View Helpers
+View Helpers
+------------
 
 * [Page View Helper]
 
