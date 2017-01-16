@@ -10,6 +10,33 @@ Installation
 2. Run `composer install` or `composer update` to install all dependencies with Composer
 3. Include the TypoScript for `t3v_illuminate` in the main TypoScript template
 
+Classes
+-------
+
+### Domain
+
+#### Model
+
+* [Abstract Model]
+* [Page Model]
+
+##### Page
+
+* [Language Overlay Model]
+
+### Service
+
+* [Database Service]
+* [Page Service]
+
+#### Validation
+
+* [Validator Service]
+
+### View Helpers
+
+* [Page View Helper]
+
 Bug Reports
 -----------
 
@@ -34,6 +61,14 @@ License
 -------
 
 T3v Illuminate is released under the [MIT License (MIT)], see [LICENSE].
+
+[Abstract Model]: https://github.com/t3v/t3v_illuminate/blob/master/Classes/Domain/Model/AbstractModel.php "Abstract Model"
+[Database Service]: https://github.com/t3v/t3v_illuminate/blob/master/Classes/Service/DatabaseService.php "Database Service"
+[Language Overlay Model]: https://github.com/t3v/t3v_illuminate/blob/master/Classes/Domain/Model/Page/LanguageOverlay.php "Language Overlay Model"
+[Page Model]: https://github.com/t3v/t3v_illuminate/blob/master/Classes/Domain/Model/PageModel.php "Page Model"
+[Page Service]: https://github.com/t3v/t3v_illuminate/blob/master/Classes/Service/PageService.php "Page Service"
+[Page View Helper]: https://github.com/t3v/t3v_illuminate/blob/master/Classes/ViewHelpers/PageViewHelper.php "Page View Helper"
+[Validator Service]: https://github.com/t3v/t3v_illuminate/blob/master/Classes/Service/Validation/ValidatorService.php "Validator Service"
 
 [Composer]: https://getcomposer.org "Dependency Manager for PHP"
 [Database]: https://github.com/illuminate/database "Illuminate Database component"
