@@ -18,11 +18,11 @@ Classes
 #### Model
 
 * [Abstract Model]
-* [Page Model]
+* [Page]
 
 ##### Page
 
-* [Language Overlay Model]
+* [Language Overlay]
 
 ### Service
 
@@ -64,10 +64,10 @@ T3v Illuminate is released under the [MIT License (MIT)], see [LICENSE].
 
 [Abstract Model]: https://github.com/t3v/t3v_illuminate/blob/master/Classes/Domain/Model/AbstractModel.php "Abstract Model"
 [Database Service]: https://github.com/t3v/t3v_illuminate/blob/master/Classes/Service/DatabaseService.php "Database Service"
-[Language Overlay Model]: https://github.com/t3v/t3v_illuminate/blob/master/Classes/Domain/Model/Page/LanguageOverlay.php "Language Overlay Model"
-[Page Model]: https://github.com/t3v/t3v_illuminate/blob/master/Classes/Domain/Model/PageModel.php "Page Model"
+[Language Overlay]: https://github.com/t3v/t3v_illuminate/blob/master/Classes/Domain/Model/Page/LanguageOverlay.php "Language Overlay"
 [Page Service]: https://github.com/t3v/t3v_illuminate/blob/master/Classes/Service/PageService.php "Page Service"
 [Page View Helper]: https://github.com/t3v/t3v_illuminate/blob/master/Classes/ViewHelpers/PageViewHelper.php "Page View Helper"
+[Page]: https://github.com/t3v/t3v_illuminate/blob/master/Classes/Domain/Model/Page.php "Page"
 [Validator Service]: https://github.com/t3v/t3v_illuminate/blob/master/Classes/Service/Validation/ValidatorService.php "Validator Service"
 
 [Composer]: https://getcomposer.org "Dependency Manager for PHP"
