@@ -17,6 +17,10 @@ Command
 
 * [Language Overlay Command Controller]
 
+    * List Command
+    * Hide Command
+    * Unhide Command
+
 Domain
 ------
 
