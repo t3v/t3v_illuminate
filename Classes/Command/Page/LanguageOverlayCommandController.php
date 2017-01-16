@@ -94,7 +94,7 @@ class LanguageOverlayCommandController extends AbstractCommandController {
           $uid    = $languageOverlay->uid;
           $title  = $languageOverlay->title;
 
-          $this->log("Hiding {$title} ({$uid})...");
+          $this->log("Hiding {$title} ({$uid})...", 'ok');
 
           $languageOverlay->hidden = true;
           $languageOverlay->save();
@@ -133,7 +133,7 @@ class LanguageOverlayCommandController extends AbstractCommandController {
           $uid    = $languageOverlay->uid;
           $title  = $languageOverlay->title;
 
-          $this->log("Unhiding {$title} ({$uid})...");
+          $this->log("Unhiding {$title} ({$uid})...", 'ok');
 
           $languageOverlay->hidden = false;
           $languageOverlay->save();

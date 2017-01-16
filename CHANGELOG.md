@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Colorized logging in `LanguageOverlayCommandController`
 * Updated `LanguageOverlayCommandController`
 
 1.2.0
