@@ -10,6 +10,13 @@ Installation
 2. Run `composer install` or `composer update` to install all dependencies with Composer
 3. Include the TypoScript for `t3v_illuminate` in the main TypoScript template
 
+Command
+-------
+
+### Page
+
+* [Language Overlay Command Controller]
+
 Domain
 ------
 
@@ -64,6 +71,7 @@ T3v Illuminate is released under the [MIT License (MIT)], see [LICENSE].
 
 [Abstract Model]: https://github.com/t3v/t3v_illuminate/blob/master/Classes/Domain/Model/AbstractModel.php "Abstract Model"
 [Database Service]: https://github.com/t3v/t3v_illuminate/blob/master/Classes/Service/DatabaseService.php "Database Service"
+[Language Overlay Command Controller]: https://github.com/t3v/t3v_illuminate/blob/master/Classes/Command/Page/LanguageOverlayCommandController.php "Language Overlay Command Controller"
 [Language Overlay]: https://github.com/t3v/t3v_illuminate/blob/master/Classes/Domain/Model/Page/LanguageOverlay.php "Language Overlay"
 [Page Service]: https://github.com/t3v/t3v_illuminate/blob/master/Classes/Service/PageService.php "Page Service"
 [Page View Helper]: https://github.com/t3v/t3v_illuminate/blob/master/Classes/ViewHelpers/PageViewHelper.php "Page View Helper"
