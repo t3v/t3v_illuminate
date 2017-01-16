@@ -56,9 +56,9 @@ class LanguageOverlayCommandController extends CommandController {
       if ($languageOverlay) {
         $uid    = $languageOverlay->uid;
         $title  = $languageOverlay->title;
-        $hidden = $languageOverlay->hidden ? 'true' : 'false';
+        $status = $languageOverlay->hidden ? 'hidden' : 'visible';
 
-        $this->log("{$title} ({$uid}) [{$hidden}]");
+        $this->log("{$title} ({$uid}) [{$status}]");
       }
     }
   }
@@ -93,7 +93,7 @@ class LanguageOverlayCommandController extends CommandController {
           $uid    = $languageOverlay->uid;
           $title  = $languageOverlay->title;
 
-          $this->log("Hiding {$title} ({$uid})");
+          $this->log("Hiding {$title} ({$uid})...");
 
           $languageOverlay->hidden = true;
           $languageOverlay->save();
@@ -132,7 +132,7 @@ class LanguageOverlayCommandController extends CommandController {
           $uid    = $languageOverlay->uid;
           $title  = $languageOverlay->title;
 
-          $this->log("Unhiding {$title} ({$uid})");
+          $this->log("Unhiding {$title} ({$uid})...");
 
           $languageOverlay->hidden = false;
           $languageOverlay->save();
@@ -151,7 +151,7 @@ class LanguageOverlayCommandController extends CommandController {
   }
 
   /**
-   * Helper function for logging.
+   * Helper function to log a message.
    *
    * @param string $message The message
    * @return void
