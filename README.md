@@ -1,9 +1,7 @@
 [T3v Illuminate]
 ================
 
-**The [TYPO3voila] Illuminate extension.**
-
-Bring the Illuminate [Database] and [Validation] component from [Laravel] to [TYPO3].
+**Bring the [Database] and [Validation] component from [Laravel] to [TYPO3].**
 
 Installation
 ------------
@@ -46,7 +44,7 @@ T3v Illuminate is released under the [MIT License (MIT)], see [LICENSE].
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
 [Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
 [Sven Lahann]: https://github.com/svenlahann "Sven Lahann at GitHub"
-[T3v Illuminate]: https://t3v.github.io/t3v_illuminate/ "The TYPO3voila Illuminate extension."
+[T3v Illuminate]: https://t3v.github.io/t3v_illuminate/ "Bring the Database and Validation component from Laravel to TYPO3."
 [TYPO3]: https://typo3.org "The Enterprise Open Source CMS"
 [TYPO3voila]: https://github.com/t3v "“UH LÁLÁ, TYPO3!”"
 [Validation]: https://github.com/illuminate/validation "Illuminate Validation component"

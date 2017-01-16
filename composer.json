@@ -1,7 +1,7 @@
 {
   "name": "t3v/t3v_illuminate",
   "type": "typo3-cms-extension",
-  "description": "The TYPO3voila Illuminate extension.",
+  "description": "Bring the Database and Validation component from Laravel to TYPO3.",
   "authors": [
     {
       "name": "Maik Kempe",
