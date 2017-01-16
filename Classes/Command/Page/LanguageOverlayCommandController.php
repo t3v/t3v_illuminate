@@ -3,7 +3,8 @@ namespace T3v\T3vIlluminate\Command\Page;
 
 use \TYPO3\CMS\Core\Database\QueryGenerator;
 use \TYPO3\CMS\Core\Utility\GeneralUtility;
-use \TYPO3\CMS\Extbase\Mvc\Controller\CommandController;
+
+use \T3v\T3vCore\Command\AbstractCommandController;
 
 use \T3v\T3vIlluminate\Domain\Model\Page\LanguageOverlay;
 use \T3v\T3vIlluminate\Service\DatabaseService;
@@ -13,7 +14,7 @@ use \T3v\T3vIlluminate\Service\DatabaseService;
  *
  * @package T3v\T3vIlluminate\Command\Page
  */
-class LanguageOverlayCommandController extends CommandController {
+class LanguageOverlayCommandController extends AbstractCommandController {
   /**
    * The query generator
    *
@@ -146,19 +147,7 @@ class LanguageOverlayCommandController extends CommandController {
    *
    * @return void
    */
-  private function beforeCommand() {
+  protected function beforeCommand() {
     $this->databaseService->setup();
-  }
-
-  /**
-   * Helper function to log a message.
-   *
-   * @param string $message The message
-   * @return void
-   */
-  private function log($message) {
-    if ($message) {
-      echo("{$message}\n");
-    }
   }
 }
