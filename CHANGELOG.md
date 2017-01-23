@@ -8,6 +8,7 @@ Unreleased
 
 * Colorized logging in `LanguageOverlayCommandController`
 * Updated `LanguageOverlayCommandController`
+* Updated Composer dependencies
 
 1.2.0
 -----
