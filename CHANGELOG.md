@@ -3,8 +3,8 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
-Unreleased
-----------
+1.3.1
+-----
 
 * Use `call_user_func` in `ext_localconf.php` and `ext_tables.php`
 
